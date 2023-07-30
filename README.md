@@ -11,19 +11,19 @@ https://docs.elgato.com/sdk/icon-packs/packaging
 Here is how you can use the DistributionTool to export the com.elgato.hello.sdIconPack icon pack:
 - macOS
 
-```bash
+```zsh
 DistributionTool -b -i com.elgato.hello.sdIconPack -o ~/Desktop/
 ```
 
 - Windows
 
-```bash
+```powershell
 DistributionTool.exe -b -i com.elgato.hello.sdIconPack -o Release
 ```
 
 If the export is successful, you should see the following:
 
-```bash
+```powershell
 Validating and export the icon pack com.elgato.hello.sdIconPack
 The icon pack has been successfully exported
 ```
