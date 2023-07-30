@@ -18,7 +18,7 @@ DistributionTool -b -i com.elgato.hello.sdIconPack -o ~/Desktop/
 - Windows
 
 ```powershell
-DistributionTool.exe -b -i com.elgato.hello.sdIconPack -o Release
+.\DistributionTool.exe -b -i com.elgato.hello.sdIconPack -o .\
 ```
 
 If the export is successful, you should see the following:
